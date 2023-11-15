@@ -4,7 +4,7 @@ def Integral ( funcion:(Double)=> Double, a: Double , b: Double): Double ={
   (b - a)*( funcion(a) + (4 * funcion(x) ) + funcion(b) ) / 6
 }
 
-val errorMetodo = (valorEsperado:Double, valorObtenido:Double)=> valorEsperado - valorObtenido
+val errorMetodo = (valorEsperado:Double, valorObtenido:Double)=> Math.abs((valorEsperado - valorObtenido))
 
 val funcion = (x: Double)=> -Math.pow(x,2) + (8 * x)  - 12
 Integral(funcion,3,5)
