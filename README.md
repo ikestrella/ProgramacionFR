@@ -10,19 +10,19 @@ En donde:
 
 ![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/94b1a64a-d824-4652-89eb-869ce2e54db2)
 
-## 1. Crear una función con nombre (integracion) que use el método de Simpson para calcular el valor aproximado de cualquier función . Se recomienda analizar lo siguiente:
-Para implementar el método de Simpson en código, el cual nos da una aproximación de la integración de una función. Se definio una funcion en la cual se implementó el metodo.
+## 1. Crear una función con nombre (integración) que use el método de Simpson para calcular el valor aproximado de cualquier función . Se recomienda analizar lo siguiente:
+Para poder implementar el método de Simpson en código, se definió una función llamada Integral que nos da una como resultado una aproximación de la integración de la función dada.
 
 ![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/e894d5d5-e01f-4b54-92c4-6aa7670462a3)
 
 
-### 1.1 El tipo de dato que devolverá la función integracion.
-El tipo de dato que devuelve esta funcion definida es una valor de tipo Double, como lo indica la funcion.
+### 1.1 El tipo de dato que devolverá la función integración.
+El tipo de dato que devuelve esta función definida es una valor de tipo Double, como lo indica la función.
 
 ### 1.2 ¿Cuáles son los parámetros que recibe la función?
-Esta funcion definida recibe cuatro parametros, como primer parametro la funcion que se va a integrar la cual es una funcion lambda, como segundo y tercer parametro recibe los limites en el cual a es el limite inferior y b es el limite superior. 
+Esta función definida recibe tres parámetros, como primer parámetro vemos la función que se va a integrar, la cual es una función lambda; como segundo y tercer parámetro se recibe los limites en el cual a es el limite inferior y b es el limite superior. 
 
-## 2. Aproxima el valor de las siguientes integrales definidas usando la función integracion creada en el paso 1.
+## 2. Aproxima el valor de las siguientes integrales definidas usando la función integración creada en el paso 1.
 
 ![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/1388afbd-bff3-47d6-8617-9d3df70ae153)
 
@@ -80,26 +80,33 @@ Resultado:
 
 ![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/b1d5a157-9e8e-43a3-a1ff-a4f172f8e7de)
 
-Se creo una funcion lambda con la cual se busca calcular el error de las aproximaciones implementando el metodo de integracion Simpson 1/3:
+Se creo una función lambda con la cual se busca calcular el error de las aproximaciones implementando el método de integración Simpson 1/3:
 
-![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/928ab792-bb13-4a97-a933-7fbec6f9f8a9)
+![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/a5f3c8a9-f62f-4b0f-ad2e-f37748f1e6bd)
 
 Error de cada Integral:
 
 ### Integral 1:
-![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/2f67de1d-043a-43e3-aebe-98fe5d6f6f03)
+![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/fc37bb08-a73c-4812-8a4b-e47b15b7d49d)
+
 ### Integral 2:
-![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/657a9495-e8b6-4b23-9ae7-84a14ce3f171)
+![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/a7ac4e6c-5428-4ac8-906d-efad9e3bf7c7)
+
 ### Integral 3:
-![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/a7f23300-dcb3-45cd-a691-b22a7cbb7ec3)
+![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/63e57731-936e-4b27-aa02-68a3c8517182)
+
 ### Integral 4:
-![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/0dd80572-a9e4-472c-bf9f-c3332a8d8870)
+![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/471c5b2d-bca2-4bb4-8ddd-0966351d2a02)
+
 ### Integral 5:
-![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/35d3750c-cca6-420b-9048-e2745ba8029f)
+![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/dec65faa-3f33-48fe-99a9-6a2089ec144d)
+
 ### Integral 6:
-![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/fc4b3ee5-ab1e-4474-b8e0-9aecf8f36103)
+![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/2b2347b3-00da-4fa6-901f-db11d285330b)
+
 ### Integral 7:
-![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/dc9a4b54-cab3-4cfd-9b3c-ad315284a4ec)
+![image](https://github.com/ikestrella/ProgramacionFR/assets/116619952/f51a8d5f-62f1-48f0-b60b-93dc2e88f882)
+
 
 
 
